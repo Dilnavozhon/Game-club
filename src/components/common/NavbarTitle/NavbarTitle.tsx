@@ -10,9 +10,9 @@ function NavbarTitle() {
   if (pathname.startsWith("/dashboard/rooms")) title = "Xonalar";
  else  title  = "Asosiy"
   return (
-    <header className="py-4 px-8 shadow-sm border-b">
+
       <h2 className="text-2xl font-bold">{title}</h2>
-    </header>
+   
   );
 }
 
