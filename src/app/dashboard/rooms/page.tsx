@@ -1,8 +1,19 @@
-import React from 'react'
+import RoomsList from "@/components/common/RoomsList/RoomsList";
+import { RoomsModal } from "@/components/common/RoomsModal/RoomsModal";
+
 
 function Rooms() {
-  return <div>Rooms</div>
-  
+
+  return (
+    <div className="h-full flex flex-col gap-10">
+      <div className="w-full flex items-center">
+        <RoomsModal />
+      </div>
+
+      
+   <RoomsList/>
+    </div>
+  );
 }
 
-export default Rooms
+export default Rooms;

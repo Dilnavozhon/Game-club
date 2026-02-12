@@ -9,7 +9,7 @@ function Sidebar() {
  
 
   return (
-    <div className="w-full max-w-72 border-r px-1 py-4">
+    <div className="min-w-72 border-r-2 px-1 py-4">
       <h1 className="font-bold text-2xl flex ite7ms-center justify-center gap-1 mb-4">
         <Gamepad size={40} />
         Game Club
